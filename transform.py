@@ -6,7 +6,7 @@ import json
 from xml.etree.ElementTree import Element, SubElement, Comment, tostring
 
 catalogo = Element('catalogo')
-with open('SoildDB.json', 'r') as myfile:
+with open('SoilDB.json', 'r') as myfile:
     data = myfile.read()
 
 obj = json.loads(data)
@@ -14,8 +14,8 @@ obj = json.loads(data)
 
 g = Graph()
 result = g.parse(
-    "K:\\Mi unidad\\Trabajo\\Docencia\\2021-2022\\Estándares de Datos e Integración de Datos\\esquemapersonas.owl")
-base = 'http://www.semanticweb.org/ismaelnavas/ontologies/2021/10/untitled-ontology-72'
+    "C:\Users\carme\Mi unidad\Documentos\Universidad\Ingeniería de la salud UMA\4º AÑO\1º cuatrimestre\Estándares de Datos Abiertos e Integración de Datos\Trabajo\json-rdf\soilDB.owl")
+base = 'http://www.semanticweb.org/inma/ontologies/2021/09/untitled-ontology-6'
 #type = g.value(semweb, RDFS.label)
 
 
