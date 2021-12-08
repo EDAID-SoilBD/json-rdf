@@ -13,8 +13,7 @@ obj = json.loads(data)
 
 
 g = Graph()
-result = g.parse(
-    "C:\Users\carme\Mi unidad\Documentos\Universidad\Ingeniería de la salud UMA\4º AÑO\1º cuatrimestre\Estándares de Datos Abiertos e Integración de Datos\Trabajo\json-rdf\soilDB.owl")
+result = g.parse("C:\Users\inesd\OneDrive\Escritorio\4º Ingeniería Bioinformática\Primer Cuatrimestre\Estándares de Datos Abiertos e Integración de Datos\Final Course Project\json-rdf\soilDB.owl")
 base = 'http://www.semanticweb.org/inma/ontologies/2021/09/untitled-ontology-6'
 #type = g.value(semweb, RDFS.label)
 
@@ -130,13 +129,13 @@ for row in obj:
     result.add((
         URIRef(base + "#" + str(row['_id'])),
         URIRef(base + "#K FACTOR"),
-        Literal(str(row['K FACTOR']), datatype=XSD.int)
+        Literal(str(row['K FACTOR']), datatype=XSD.double)
     ))
 
     result.add((
         URIRef(base + "#" + str(row['_id'])),
         URIRef(base + "#APPARENT DENSITY"),
-        Literal(str(row['APPARENT DENSITY']), datatype=XSD.int)
+        Literal(str(row['APPARENT DENSITY']), datatype=XSD.double)
     ))
     result.add((
         URIRef(base + "#" + str(row['_id'])),
@@ -177,13 +176,13 @@ for row in obj:
     result.add((
         URIRef(base + "#" + str(row['_id'])),
         URIRef(base + "#ORGANIC CARBON"),
-        Literal(str(row['ORGANIC CARBON']), datatype=XSD.int)
+        Literal(str(row['ORGANIC CARBON']), datatype=XSD.string)
     ))
 
     result.add((
         URIRef(base + "#" + str(row['_id'])),
         URIRef(base + "#C FACTOR"),
-        Literal(str(row['C FACTOR']), datatype=XSD.int)
+        Literal(str(row['C FACTOR']), datatype=XSD.double)
     ))
 
     result.add((
@@ -194,12 +193,12 @@ for row in obj:
 
     result.add((
         URIRef(base + "#" + str(row['_id'])),
-        URIRef(base + "#SPECTRAL RESPONSE "),
-        Literal(str(row['SPECTRAL RESPONSE ']), datatype=XSD.string)
+        URIRef(base + "#SPECTRAL RESPONSE"),
+        Literal(str(row['SPECTRAL RESPONSE']), datatype=XSD.string)
     ))
 
 
-f = open("PyFauna.owl", "w")
+f = open("PySoilDB.owl", "w")
 f.write(result.serialize(format="xml").decode())
 f.close()
 #tostring(catalogo, encoding='unicode')
