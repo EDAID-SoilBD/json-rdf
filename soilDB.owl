@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#classified_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#classified_in"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#located_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#located_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#altitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#altitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#code"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#coor_x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#coor_x"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#coor_y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#coor_y"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#description"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#incline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#incline"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+        <coor_x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323614</coor_x>
+        <coor_y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4074856</coor_y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+        <coor_x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326573</coor_x>
+        <coor_y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4078548</coor_y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+        <coor_x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">332442</coor_x>
+        <coor_y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4064352</coor_y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+        <coor_x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337715</coor_x>
+        <coor_y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4068666</coor_y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Coordinate"/>
+        <coor_x rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324475</coor_x>
+        <coor_y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4067584</coor_y>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+        <classified_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T1"/>
+        <located_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C1"/>
+        <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478</altitude>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G0201</code>
+        <incline rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</incline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+        <classified_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T2"/>
+        <located_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C2"/>
+        <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">555</altitude>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G0202</code>
+        <incline rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</incline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+        <classified_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T3"/>
+        <located_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C3"/>
+        <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">745</altitude>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G0203</code>
+        <incline rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</incline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+        <classified_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T1"/>
+        <located_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C4"/>
+        <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598</altitude>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G0204</code>
+        <incline rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</incline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#S5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Soil"/>
+        <classified_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T2"/>
+        <located_in rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#C5"/>
+        <altitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">805</altitude>
+        <code rdf:datatype="http://www.w3.org/2001/XMLSchema#string">G0205</code>
+        <incline rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">58</incline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type"/>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sandy soil</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type"/>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saline soil</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type"/>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black earth soil</description>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#T4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/inma/ontologies/2021/9/untitled-ontology-6#Type"/>
+        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silty soil</description>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
